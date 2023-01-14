@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 export default function Navbar(){
     return(
-        <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="mb-5">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">WASAC</a> 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

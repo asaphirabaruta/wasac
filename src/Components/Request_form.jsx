@@ -2,7 +2,7 @@ export default function RequestForm(){
     return(
         <div className="row d-flex justify-content-center">
             <div className="card p-3 px-md-5 mt-4 shadow col-11 col-md-8">            
-                <h1 className="d-flex justify-content-center">Request Water</h1>
+                <h1 className="d-flex justify-content-center">Water Request Form</h1>
                 <form>
                     <div className="row">
                         <div className="col">
@@ -82,6 +82,16 @@ export default function RequestForm(){
                             <input className="form-control" type="text" placeholder="Type in ID number..." />
                         </div>
                     </div> <br/>
+                    <div className="row mb-3">
+                        <div className="col-md-6 mb-3">
+                            <label>Copy of ID:</label>
+                            <input className="form-control" type="file"/>
+                        </div>
+                        <div className="col-md-6">
+                            <label>Copy of UPI:</label>
+                            <input className="form-control" type="file"/>
+                        </div>
+                    </div>                    
 
                     <div className="d-flex justify-content-center mb-3">
                         <button className="btn btn-primary">Send Request</button>

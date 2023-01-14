@@ -2,7 +2,7 @@ export default function Bill(){
     return(
         <div className="row d-flex justify-content-center mt-3">
         <div className="col-md-10">
-            <h6 className="fw-bold">I. Client Description </h6>
+            <h6 className="fw-bold mt-3">I. Client Description </h6>
             <div className="row m-3">
                 <div className="col-md-6">
                     <h6>Names:</h6>
