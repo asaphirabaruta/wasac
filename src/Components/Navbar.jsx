@@ -24,7 +24,7 @@ export default function Navbar(){
                             <li><Link className="dropdown-item" to="/water-request">Water Connection Request</Link></li>
                             <li><a className="dropdown-item" href="#">Water Disconnection Report</a></li>
                             <li><hr className="dropdown-divider"/></li>
-                            <li><a className="dropdown-item" href="#">Others</a></li>
+                            <li><Link className="dropdown-item" to="/billing">Others</Link></li>
                         </ul>
                         </li>
                         

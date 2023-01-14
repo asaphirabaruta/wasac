@@ -1,7 +1,7 @@
 export default function RequestForm(){
     return(
         <div className="row d-flex justify-content-center">
-            <div className="card p-3 px-md-5 mt-5 shadow col-10 col-md-8">            
+            <div className="card p-3 px-md-5 mt-4 shadow col-11 col-md-8">            
                 <h1 className="d-flex justify-content-center">Request Water</h1>
                 <form>
                     <div className="row">
@@ -24,34 +24,34 @@ export default function RequestForm(){
                     <label>Address:</label>                    
                     <div className="row">
 
-                        <div className="col-md">
+                        <div className="col-md mb-3">
                             <select className="form-select">
                                 <option selected>Province</option>
                                 <option>Northern</option>
                                 <option>Southern</option>
-                            </select> 
+                            </select>
                         </div>
 
-                        <div className="col-md">
+                        <div className="col-md mb-3">
                             <select className="form-select">
                                 <option selected>District</option>
                                 <option>MUHANGA</option>
-                                <option>KACYIRU</option>
+                                <option>GASABO</option>
                             </select>
                         </div>
 
-                        <div className="col-md">
+                        <div className="col-md mb-3">
                             <select className="form-select">
                                 <option selected>Sector</option>
-                                <option>MUHANGA</option>
+                                <option>GISOZI</option>
                                 <option>KACYIRU</option>
                             </select>
                         </div>
 
-                        <div className="col-md">
+                        <div className="col-md mb-3">
                             <select className="form-select">
                                 <option selected>Cell</option>
-                                <option>MUHANGA</option>
+                                <option>MUSEZERO</option>
                                 <option>KACYIRU</option>
                             </select>
                         </div>
@@ -72,7 +72,7 @@ export default function RequestForm(){
                     <label>Identification:</label>
                     <div className="row">
                         <div className="col-md-4">
-                            <select className="form-select">
+                            <select className="form-select mb-3">
                                 <option selected>Choose ID type</option>
                                 <option>ID Card</option>
                                 <option>Passport</option>
@@ -83,8 +83,8 @@ export default function RequestForm(){
                         </div>
                     </div> <br/>
 
-                    <div className="d-flex justify-content-center">
-                        <button className="btn btn-primary">Request</button>
+                    <div className="d-flex justify-content-center mb-3">
+                        <button className="btn btn-primary">Send Request</button>
                     </div>
                     
                 </form>
