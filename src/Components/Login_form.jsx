@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function LoginForm(){
     return(
         <div className="row d-flex justify-content-center">
@@ -11,7 +13,7 @@ export default function LoginForm(){
                     <input className="form-control" type="password"/><br/>
 
                     <div className="d-flex justify-content-center">
-                        <button className="btn btn-primary">Login</button>
+                        <Link className="btn btn-primary" to="/room">Login</Link>
                     </div>
                     
                 </form>
